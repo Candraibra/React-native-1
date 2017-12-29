@@ -1,0 +1,138 @@
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react2 = require('react');
+
+var _react3 = _interopRequireDefault(_react2);
+
+var _index = require('./../../react-transform-hmr/lib/index.js');
+
+var _index2 = _interopRequireDefault(_index);
+
+var _jsxFileName = '/home/candra/hi/node_modules/react-native-carousel-view/src/carouselPager.android.js';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _reactNative = require('react-native');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var _components = {
+  CarouselPager: {
+    displayName: 'CarouselPager'
+  }
+};
+
+var _reactTransformHmrLibIndexJs2 = (0, _index2.default)({
+  filename: '/home/candra/hi/node_modules/react-native-carousel-view/src/carouselPager.android.js',
+  components: _components,
+  locals: [module],
+  imports: [_react3.default]
+});
+
+function _wrapComponent(id) {
+  return function (Component) {
+    return _reactTransformHmrLibIndexJs2(Component, id);
+  };
+}
+
+var CarouselPager = _wrapComponent('CarouselPager')(function (_Component) {
+  _inherits(CarouselPager, _Component);
+
+  function CarouselPager(props) {
+    _classCallCheck(this, CarouselPager);
+
+    var _this = _possibleConstructorReturn(this, (CarouselPager.__proto__ || Object.getPrototypeOf(CarouselPager)).call(this, props));
+
+    _this.scrollToPage = _this.scrollToPage.bind(_this);
+    _this._pageStateChange = _this._pageStateChange.bind(_this);
+    _this._selectedPage = _this._selectedPage.bind(_this);
+    _this._pageScroll = _this._pageScroll.bind(_this);
+
+    _this.state = {
+      pageState: 'idle'
+    };
+    return _this;
+  }
+
+  _createClass(CarouselPager, [{
+    key: 'scrollToPage',
+    value: function scrollToPage(page, animated) {
+      if (typeof animated === 'undefined') {
+        animated = true;
+      }
+      if (animated) {
+        this.viewPager.setPage(page);
+      } else {
+        this.viewPager.setPageWithoutAnimation(page);
+      }
+    }
+  }, {
+    key: '_pageScroll',
+    value: function _pageScroll() {
+      var onScroll = this.props.onScroll;
+
+      onScroll();
+    }
+  }, {
+    key: '_selectedPage',
+    value: function _selectedPage(e) {
+      var onEnd = this.props.onEnd;
+
+      var activePage = e.nativeEvent.position;
+      this.setState({ activePage: activePage });
+
+      onEnd(activePage);
+    }
+  }, {
+    key: '_pageStateChange',
+    value: function _pageStateChange(pageState) {
+      var onBegin = this.props.onBegin;
+
+      if (pageState === 'dragging') {
+        return this.setState({ pageState: pageState }, onBegin());
+      }
+      return this.setState({ pageState: pageState });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var _props = this.props,
+          children = _props.children,
+          contentContainerStyle = _props.contentContainerStyle,
+          width = _props.width,
+          height = _props.height;
+
+      return _react3.default.createElement(
+        _reactNative.ViewPagerAndroid,
+        {
+          ref: function ref(viewPager) {
+            _this2.viewPager = viewPager;
+          },
+          style: [contentContainerStyle, { width: width, height: height }],
+          onPageScroll: this._pageScroll,
+          onPageScrollStateChanged: this._pageStateChange,
+          onPageSelected: this._selectedPage,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 75
+          }
+        },
+        children
+      );
+    }
+  }]);
+
+  return CarouselPager;
+}(_react2.Component));
+
+exports.default = CarouselPager;

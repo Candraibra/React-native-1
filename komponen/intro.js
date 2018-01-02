@@ -16,6 +16,9 @@ export default class Intro extends Component {
         alignItems: 'center',
       }}>
         <View style={styles.container}>
+        <Text>
+                Daftar Sosial media Terpopuler didunia
+              </Text>
           <Carousel
             width={375}
             height={300}
@@ -27,24 +30,74 @@ export default class Intro extends Component {
             >
             <View style={styles.contentContainer}>
               <Text>
-                Ini Bayi yang unch):
+                Facebook
               </Text>
               <Image 
-              source={require("../assets/img/1.png")}/>
+              source={require("../assets/img/png/facebook.png")}/>
+           
+           </View>
+            <View style={styles.contentContainer}>
+            <Text>
+                Qzone
+              </Text>
+            <Image 
+              source={require("../assets/img/png/qzone.png")}/>
             </View>
             <View style={styles.contentContainer}>
             <Text>
-                Ini Remaja yang unch):
+                Google +
               </Text>
             <Image 
-              source={require("../assets/img/2.png")}/>
+              source={require("../assets/img/png/google+.png")}/>
+            </View>
+            <View style={styles.contentContainer}>
+              <Text>
+                Linkedln
+              </Text>
+              <Image 
+              source={require("../assets/img/png/linkedin.png")}/>
             </View>
             <View style={styles.contentContainer}>
             <Text>
-                Ini orang tua yang unch):
+                Instagram
               </Text>
             <Image 
-              source={require("../assets/img/3.png")}/>
+              source={require("../assets/img/png/instagram.png")}/>
+            </View>
+            <View style={styles.contentContainer}>
+            <Text>
+                Twitter
+              </Text>
+            <Image 
+              source={require("../assets/img/png/twitter.png")}/>
+            </View>
+            <View style={styles.contentContainer}>
+              <Text>
+                Tumblr
+              </Text>
+              <Image 
+              source={require("../assets/img/png/tumblr.png")}/>
+            </View>
+            <View style={styles.contentContainer}>
+            <Text>
+                Sina Weibo
+              </Text>
+            <Image 
+              source={require("../assets/img/png/sina-weibo.png")}/>
+            </View>
+            <View style={styles.contentContainer}>
+            <Text>
+                Vkontakte
+              </Text>
+            <Image 
+              source={require("../assets/img/png/vkontakte.png")}/>
+            </View>
+            <View style={styles.contentContainer}>
+              <Text>
+                Snapchat
+              </Text>
+              <Image 
+              source={require("../assets/img/png/snapchat.png")}/>
             </View>
           </Carousel>
         </View>
@@ -58,6 +111,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+
   },
   contentContainer: {
     borderWidth: 2,
@@ -65,6 +119,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: 'white',
   },
 });
 

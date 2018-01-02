@@ -97,7 +97,7 @@ exports.default = App;
 var styles = _reactNative.StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#1d1e1e',
     alignItems: 'center',
     justifyContent: 'center'
   }

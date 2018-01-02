@@ -78,6 +78,16 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
             }
           },
           _react3.default.createElement(
+            _reactNative.Text,
+            {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 19
+              }
+            },
+            'Daftar Sosial media Terpopuler didunia'
+          ),
+          _react3.default.createElement(
             _reactNativeCarouselView2.default,
             {
               width: 375,
@@ -89,14 +99,14 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               indicatorColor: '#0b1526',
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 19
+                lineNumber: 22
               }
             },
             _react3.default.createElement(
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 28
+                  lineNumber: 31
                 }
               },
               _react3.default.createElement(
@@ -104,39 +114,39 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 29
+                    lineNumber: 32
                   }
                 },
-                'Ini Bayi yang unch):'
+                'Facebook'
               ),
               _react3.default.createElement(_reactNative.Image, {
-                source: require("../assets/img/1.png"), __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 32
-                }
-              })
-            ),
-            _react3.default.createElement(
-              _reactNative.View,
-              { style: styles.contentContainer, __source: {
+                source: require("../assets/img/png/facebook.png"), __source: {
                   fileName: _jsxFileName,
                   lineNumber: 35
                 }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 39
+                }
               },
               _react3.default.createElement(
                 _reactNative.Text,
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 36
+                    lineNumber: 40
                   }
                 },
-                'Ini Remaja yang unch):'
+                'Qzone'
               ),
               _react3.default.createElement(_reactNative.Image, {
-                source: require("../assets/img/2.png"), __source: {
+                source: require("../assets/img/png/qzone.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 39
+                  lineNumber: 43
                 }
               })
             ),
@@ -144,7 +154,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 42
+                  lineNumber: 46
                 }
               },
               _react3.default.createElement(
@@ -152,15 +162,183 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 43
+                    lineNumber: 47
                   }
                 },
-                'Ini orang tua yang unch):'
+                'Google +'
               ),
               _react3.default.createElement(_reactNative.Image, {
-                source: require("../assets/img/3.png"), __source: {
+                source: require("../assets/img/png/google+.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 46
+                  lineNumber: 50
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 53
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 54
+                  }
+                },
+                'Linkedln'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/linkedin.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 57
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 60
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 61
+                  }
+                },
+                'Instagram'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/instagram.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 64
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 67
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 68
+                  }
+                },
+                'Twitter'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/twitter.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 71
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 74
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 75
+                  }
+                },
+                'Tumblr'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/tumblr.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 78
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 81
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 82
+                  }
+                },
+                'Sina Weibo'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/sina-weibo.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 85
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 88
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 89
+                  }
+                },
+                'Vkontakte'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/vkontakte.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 92
+                }
+              })
+            ),
+            _react3.default.createElement(
+              _reactNative.View,
+              { style: styles.contentContainer, __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 95
+                }
+              },
+              _react3.default.createElement(
+                _reactNative.Text,
+                {
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 96
+                  }
+                },
+                'Snapchat'
+              ),
+              _react3.default.createElement(_reactNative.Image, {
+                source: require("../assets/img/png/snapchat.png"), __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 99
                 }
               })
             )
@@ -181,13 +359,15 @@ var styles = _reactNative.StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+
   },
   contentContainer: {
     borderWidth: 2,
     borderColor: 'transparent',
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: 'white'
   }
 });
 

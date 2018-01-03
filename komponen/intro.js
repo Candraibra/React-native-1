@@ -10,6 +10,7 @@ import Carousel from 'react-native-carousel-view';
 export default class Intro extends Component {
   render() {
     return (
+      
       <View style={{
         flex: 1,
         justifyContent: 'center',

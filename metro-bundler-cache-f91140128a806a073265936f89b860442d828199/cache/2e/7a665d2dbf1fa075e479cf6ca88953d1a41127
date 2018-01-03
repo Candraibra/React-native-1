@@ -67,14 +67,14 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
             alignItems: 'center'
           }, __source: {
             fileName: _jsxFileName,
-            lineNumber: 13
+            lineNumber: 14
           }
         },
         _react3.default.createElement(
           _reactNative.View,
           { style: styles.container, __source: {
               fileName: _jsxFileName,
-              lineNumber: 18
+              lineNumber: 19
             }
           },
           _react3.default.createElement(
@@ -82,7 +82,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 19
+                lineNumber: 20
               }
             },
             'Daftar Sosial media Terpopuler didunia'
@@ -99,14 +99,14 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               indicatorColor: '#0b1526',
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 22
+                lineNumber: 23
               }
             },
             _react3.default.createElement(
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 31
+                  lineNumber: 32
                 }
               },
               _react3.default.createElement(
@@ -114,7 +114,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 32
+                    lineNumber: 33
                   }
                 },
                 'Facebook'
@@ -122,7 +122,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/facebook.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 35
+                  lineNumber: 36
                 }
               })
             ),
@@ -130,7 +130,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 39
+                  lineNumber: 40
                 }
               },
               _react3.default.createElement(
@@ -138,7 +138,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 40
+                    lineNumber: 41
                   }
                 },
                 'Qzone'
@@ -146,7 +146,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/qzone.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 43
+                  lineNumber: 44
                 }
               })
             ),
@@ -154,7 +154,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 46
+                  lineNumber: 47
                 }
               },
               _react3.default.createElement(
@@ -162,7 +162,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 47
+                    lineNumber: 48
                   }
                 },
                 'Google +'
@@ -170,7 +170,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/google+.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 50
+                  lineNumber: 51
                 }
               })
             ),
@@ -178,7 +178,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 53
+                  lineNumber: 54
                 }
               },
               _react3.default.createElement(
@@ -186,7 +186,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 54
+                    lineNumber: 55
                   }
                 },
                 'Linkedln'
@@ -194,7 +194,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/linkedin.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 57
+                  lineNumber: 58
                 }
               })
             ),
@@ -202,7 +202,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 60
+                  lineNumber: 61
                 }
               },
               _react3.default.createElement(
@@ -210,7 +210,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 61
+                    lineNumber: 62
                   }
                 },
                 'Instagram'
@@ -218,7 +218,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/instagram.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 64
+                  lineNumber: 65
                 }
               })
             ),
@@ -226,7 +226,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 67
+                  lineNumber: 68
                 }
               },
               _react3.default.createElement(
@@ -234,7 +234,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 68
+                    lineNumber: 69
                   }
                 },
                 'Twitter'
@@ -242,7 +242,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/twitter.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 71
+                  lineNumber: 72
                 }
               })
             ),
@@ -250,7 +250,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 74
+                  lineNumber: 75
                 }
               },
               _react3.default.createElement(
@@ -258,7 +258,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 75
+                    lineNumber: 76
                   }
                 },
                 'Tumblr'
@@ -266,7 +266,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/tumblr.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 78
+                  lineNumber: 79
                 }
               })
             ),
@@ -274,7 +274,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 81
+                  lineNumber: 82
                 }
               },
               _react3.default.createElement(
@@ -282,7 +282,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 82
+                    lineNumber: 83
                   }
                 },
                 'Sina Weibo'
@@ -290,7 +290,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/sina-weibo.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 85
+                  lineNumber: 86
                 }
               })
             ),
@@ -298,7 +298,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 88
+                  lineNumber: 89
                 }
               },
               _react3.default.createElement(
@@ -306,7 +306,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 89
+                    lineNumber: 90
                   }
                 },
                 'Vkontakte'
@@ -314,7 +314,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/vkontakte.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 92
+                  lineNumber: 93
                 }
               })
             ),
@@ -322,7 +322,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _reactNative.View,
               { style: styles.contentContainer, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 95
+                  lineNumber: 96
                 }
               },
               _react3.default.createElement(
@@ -330,7 +330,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 96
+                    lineNumber: 97
                   }
                 },
                 'Snapchat'
@@ -338,7 +338,7 @@ var Intro = _wrapComponent('Intro')(function (_Component) {
               _react3.default.createElement(_reactNative.Image, {
                 source: require("../assets/img/png/snapchat.png"), __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 99
+                  lineNumber: 100
                 }
               })
             )
